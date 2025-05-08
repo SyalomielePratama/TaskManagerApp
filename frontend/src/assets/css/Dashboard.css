@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.wrapper-dashboard {
+  background: linear-gradient(#F1FAFF, #CBE4FF) !important;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-dashboard {
+  color: #151A2D !important;
+  box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  -webkit-box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  -moz-box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.card-dashboard:hover {
+  transform: translateY(-10px); /* Move the card upwards */
+  box-shadow: 11px 14px 15px 0px rgba(189, 189, 189, 0.64); /* Add more shadow */
+}
+
+
+.wrapper-dashboard .welcome {
+  color: #151A2D;
+}
+
+.wrapper-dashboard .icon-dashboard {
+  color: whitesmoke !important;
+}
+
+.chart-container {
+  width: 100%;
+  height: 300px;
+}
+
+.chart-my {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-chart {
+  color: #151A2D !important;
+  box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  -webkit-box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  -moz-box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.card-chart:hover {
+  transform: translateY(-10px); /* Move the card upwards */
+  box-shadow: 11px 14px 15px 0px rgba(189, 189, 189, 0.64); /* Add more shadow */
+}
+
+.card-table {
+  background: #F1FAFF !important;
+  color: #151A2D !important;
+  box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  -webkit-box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  -moz-box-shadow: 11px 14px 5px 0px rgba(189, 189, 189, 0.64);
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.card-table:hover {
+  transform: translateY(-10px); /* Move the card upwards */
+  box-shadow: 11px 14px 15px 0px rgba(189, 189, 189, 0.64); /* Add more shadow */
+}
+
+.table-head-color{
+  background-color:#151A2D !important ;
+}
