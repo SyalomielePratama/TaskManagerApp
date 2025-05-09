@@ -18,10 +18,10 @@ const TaskTable = ({ tasks }) => {
     };
   
     return (
-      <div className="my-4 card-table p-3">
+      <div className="my-4 card-table p-3  rounded-4">
         <h4 className="fw-bold mb-3">Tugas Terkini</h4>
         <div className="table-responsive">
-          <table className="table table-striped table-hover table-bordered shadow-sm">
+          <table className="table table-striped table-hover table-bordered ">
             <thead className="table-dark table-head-color">
               <tr>
                 <th>Nama Tugas</th>

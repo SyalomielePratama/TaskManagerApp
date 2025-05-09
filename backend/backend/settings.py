@@ -180,20 +180,15 @@ PROTECTED_ROUTES = os.getenv('PROTECTED_ROUTES').split(',')# Semua path di bawah
 
 # CORS Settings (sesuaikan dengan kebutuhan frontend Anda)
 # Atau, untuk lebih spesifik:
-# CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS').split(',')
-CORS_ALLOWED_ORIGINS=['http://localhost:5173']
+CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS').split(',')
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
 
-# Logging (opsional, tapi bagus untuk debugging)
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'handlers': {
-#         'console': {
-#             'class': 'logging.StreamHandler',
-#         },
-#     },
-#     'root': {
-#         'handlers': ['console'],
-#         'level': 'INFO', # Ubah ke DEBUG untuk lebih detail
-#     },
-# }
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # Gunakan App Password, bukan password Gmail biasa
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL')
+
+FRONTEND_BASE_URL = os.getenv("FRONTEND_BASE_URL")

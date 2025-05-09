@@ -49,7 +49,7 @@ const Login = () => {
         navigate("/dashboard");
       });
     } catch (error) {
-      Swal.fire({
+      await Swal.fire({
         title: "Login Failed",
         text: "Username atau password salah.",
         icon: "error",
@@ -122,12 +122,16 @@ const Login = () => {
                             <i className="input-icon uil uil-user"></i>
                           </div>
                           <div className="form-group-login mt-2">
+
                             <input type="password" name="password" className="form-style" placeholder="Your Password" autoComplete="off"
                               value={loginData.password} onChange={(e) => handleChange(e, true)} />
                             <i className="input-icon uil uil-lock-alt"></i>
                           </div>
                           <button type="submit" className="btn-login mt-4">Login</button>
                         </form>
+                          <span className="forgot-password-link mt-3" onClick={() => navigate("/forgot-password")}>
+                            Forgot Password?
+                          </span>
                       </div>
                     </div>
 
@@ -165,7 +169,6 @@ const Login = () => {
                         </form>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>

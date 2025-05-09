@@ -256,3 +256,17 @@
   color: #ffeba7 !important;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2) !important;
 }
+
+.forgot-password-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.forgot-password-link:hover {
+  color: #ccc;
+}

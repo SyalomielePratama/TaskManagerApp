@@ -101,7 +101,7 @@ const TaskCreate = () => {
                 <main className="flex-grow-1 p-4" style={mainStyle}>
                     <div className="container">
                         <h2 className="fw-bold mb-4 welcome">Tambah Tugas</h2>
-                        <div className="card shadow-sm">
+                        <div className="card shadow-lg">
                             <div className="card-body">
                                 <TaskForm
                                     formData={formData}

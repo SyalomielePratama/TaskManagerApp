@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+.forget-wrapper-login {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1f2029 !important;
+  color: #c4c3ca !important;
+}
+
+.forget-section-login {
+  background: #2a2b38;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.forget-title {
+  margin-bottom: 20px;
+  color: #c4c3ca !important;
+}
+
+.forget-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.forget-form-style {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #c4c3ca;
+  background-color: #1f2029;
+}
+
+.forget-form-style:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.forget-btn-login {
+  padding: 10px;
+  background-color: #ffeba7 !important;
+  color: #102770 !important;
+  box-shadow: 0 8px 24px 0 rgba(255, 235, 167, .2);
+  cursor: pointer !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: #ffeba7 0.3s;
+}
+
+.forget-btn-login:active,
+.forget-btn-login:focus {
+  background-color: #102770 !important;
+  color: #ffeba7 !important;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2) !important;
+}
+
+.forger-btn-login:hover {
+  background-color: #102770 !important;
+  color: #ffeba7 !important;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2) !important;
+}
+
+.forget-btn-login:hover {
+  background-color: #0056b3;
+}

@@ -58,7 +58,7 @@ const ManageCreate = () => {
                 <main className="flex-grow-1 p-4" style={mainStyle}>
                     <div className="container-fluid">
                         <div className="d-flex justify-content-between align-items-center mb-4">
-                            <h2 className="fw-bold welcome">Tugas Saya</h2>
+                            <h2 className="fw-bold welcome">Kelola Tugas</h2>
                             <div className="d-flex align-items-center gap-2">
                                 <label htmlFor="statusFilter" className="me-2 fw-semibold">Filter:</label>
                                 <select
