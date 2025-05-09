@@ -73,9 +73,9 @@ const Sidebar = ({ onCollapse }) => {
 
   const navItems = [
     ["bi-speedometer2", "Dashboard", "/dashboard"],
-    ["bi-calendar", "Buat Task", "/calendar"],
-    ["bi-list-task", "Kelola Task", "/notifications"],
-    ["bi-journal-plus", "Pengaturan", "/settings"],
+    ["bi-journal-plus", "Buat Task", "/tasks/create"],
+    ["bi-list-task", "Kelola Task", "/manage-task"],
+    ["bi-gear", "Pengaturan", "/settings"],
   ];
 
   const bottomNav = [

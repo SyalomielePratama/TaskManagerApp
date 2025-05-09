@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.wrapper-edit {
+  background: linear-gradient(#F1FAFF, #CBE4FF) !important;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .btn-selesai{
+    max-width: 70px;
+  }
+  
+}
